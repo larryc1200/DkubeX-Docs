@@ -16,7 +16,7 @@ Training Flow
 * Details of the steps involved in training
 * Description of tools and processes
 * I am not sure how the local vs remote training differ, so you can decide how best to partition them
-* I have included 2 section, but it's likely that there is a lot of overlap - based on that, you may find that a single section witih tabs for where they diverge makes more sense
+* I have included 2 sections, but it's likely that there is a lot of overlap - based on that, you may find that a single section witih tabs for where they diverge makes more sense
 
 Local Training
 ===================
@@ -33,8 +33,8 @@ Accessing the Code
 * Repo for the code
 * Details of finding the right files
 
-Experimentation
-****************
+Analyzing the Code
+********************
 
 * I am assuming that you'll be showing the code in Jupyter (at least for local training)
 * Show how to get the code into JupyterLab

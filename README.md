@@ -1,17 +1,22 @@
-﻿﻿This repository contains the source and build files to create the DKube guides.  
+﻿﻿This repository contains the source and build files to create the DKubeX guides.  
 
 - The source files use Sphinx v3.4.2
 - The batch files run under Windows
 - The following packages must be installed
+  - `sphinx` as described at https://www.sphinx-doc.org/en/master/usage/installation.html
+  - `sphinx materials theme` as described at https://pypi.org/project/sphinx-material/
   - `tabs` as described at https://sphinx-tabs.readthedocs.io/en/latest/
-  - `Linuxdoc` as described at https://devopstutodoc.readthedocs.io/en/stable/documentation/doc_generators/sphinx/contributed_extensions/linux/linux.html
-  - `pip install sphinx-autobuild` - this will automatically rebuild on changes and show the page
+  - `pip install sphinx-autobuild` - This will automatically rebuild on changes and show the page
  
 The following folder contains the source and HTML files for the installation guide:
 
-- X-build.bat
+- X-auto.bat
   - Build the html files from scratch, removing and recreating the output folder
+  - Sets up the local server and automatically rebulds on changes
   - This needs to be rerun when any config or css file changes
+
+- X-build.bat
+  - Build the html files without creating a local server or automatically rebuilding
 
 - /source
   - Source file folder to create the user guide

@@ -47,7 +47,6 @@ extensions = [
     "sphinx.ext.viewcode",
     'sphinx_tabs.tabs',
     'sphinx.ext.extlinks',
-    'linuxdoc.rstFlatTable',
 ]
 
 autosummary_generate = True
