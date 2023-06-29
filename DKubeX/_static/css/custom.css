@@ -15,6 +15,21 @@ p.version-info {
   margin-bottom: 0;
 }
 
+/* Disable header covering body
+header {
+  position:fixed;
+  width: 100%;
+  top: 0;
+  margin-bottom: 100px;
+}
+body {
+  padding-top: 40px;
+}
+h1, h2, h3 {
+  scroll-margin-top: 60px;
+}
+*/
+
 /* ------------------------------
    Misc formatting
 ------------------------------ */
@@ -53,6 +68,29 @@ p.version-info {
   padding-right: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+/* Formatting for command line */
+div.cmd-line, div.cmd-line-indent {
+  font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",Courier,monospace;
+  padding: 0.3em 1.3em 0.3em 0.6em;
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  display: inline-block;
+}
+div.cmd-line-indent {
+  display: inline-block;
+  margin-left: 1em;
+}
+div.cmd-line:before, div.cmd-line-indent:before {
+  font-family: FontAwesome;
+  content: "\f155";
+  color: white;
+  font-size: 12px;
+}
+div.cmd-line:before {
+  padding-right: 0.4em;
 }
 
 /* Single tic */
@@ -275,7 +313,10 @@ td:first-child {
 	height: auto;
 }
 .center-align-2nd-col td:nth-child(2) {
-  text-align: center;
+  text-align: center !important;
+}
+.left-align-2nd-col td:nth-child(2) {
+  text-align: left !important;
 }
 .left-align-right-col td:last-child {
   text-align: left !important;
@@ -373,8 +414,8 @@ a.button:hover:after {
 }
 
 [aria-selected='true'] {
-    background-color: #bdd0f2;
-    border-color: #93b6f4;
+    background-color: #7660a8;
+    color: white;
     border-radius: 5px;
     border-style: solid;
     font-size: 110%;

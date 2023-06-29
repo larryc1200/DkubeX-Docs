@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 
 <html lang="en">
@@ -54,11 +55,15 @@
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
     <script src="_static/doctools.js"></script>
-    <script src="_static/tabs.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Getting Started" href="Getting_Started.html" />
     <link rel="prev" title="&lt;no title&gt;" href="index.html" />
+
+  <!-- Add Font Awesome for admonitions -->
+  <link rel="stylesheet" href="_static/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+
+
   
    
 
@@ -206,6 +211,62 @@
       
     
     </li>
+    <li class="md-nav__item">
+    
+    
+      <a href="d3x_Commands.html" class="md-nav__link">d3x Commands</a>
+      
+    
+    </li>
+    <li class="md-nav__item">
+    
+    
+      <a href="Training_Example.html" class="md-nav__link">Training Example</a>
+      
+    
+    </li>
+    <li class="md-nav__item">
+    
+    
+      <a href="Workspace_Screen.html" class="md-nav__link">Workspace Screen</a>
+      
+    
+    </li>
+    <li class="md-nav__item">
+    
+    
+      <a href="MLFlow_Screen.html" class="md-nav__link">MLFlow Screen</a>
+      
+    
+    </li>
+    <li class="md-nav__item">
+    
+    
+      <a href="Metrics_Screen.html" class="md-nav__link">Metrics Screen</a>
+      
+    
+    </li>
+    <li class="md-nav__item">
+    
+    
+      <a href="LLM_Screen.html" class="md-nav__link">LLM Apps Screen</a>
+      
+    
+    </li>
+    <li class="md-nav__item">
+    
+    
+      <a href="Clusters_Screen.html" class="md-nav__link">Clusters Screen</a>
+      
+    
+    </li>
+    <li class="md-nav__item">
+    
+    
+      <a href="Logs_Screen.html" class="md-nav__link">Logs Screen</a>
+      
+    
+    </li>
   </ul>
   
 
@@ -238,7 +299,7 @@
   
 <span id="dkubex-intro"></span><h1 id="overview--page-root">DKubeX Overview<a class="headerlink" href="#overview--page-root" title="Permalink to this headline">¶</a></h1>
 <a class="no-border reference internal image-reference" href="_images/Sample_Block_Diagram.png"><img alt="_images/Sample_Block_Diagram.png" class="no-border" src="_images/Sample_Block_Diagram.png" style="width: 500px;"/></a>
-<p><span class="grayback">This is a sample block diagram to show an image.  Normally, I have put a border around screenshots, but for block diagrams you can use the “`no-border” class to prevent it if you want. This would be replaced with a screenshot of the Splashpage or block diagram of the DKubeX pieces.  This also shows how you can use roles to provide background, text color, and other highlights - they are in the custom.css file and some of them are at the top of this file.</span></p>
+<p><span class="grayback">This is a sample block diagram to show an image.  Normally, I have put a border around screenshots, but for block diagrams you can use the “no-border” class to prevent it if you want. This would be replaced with a screenshot of the Splashpage or block diagram of the DKubeX pieces.  This also shows how you can use roles to provide background, text color, and other highlights - they are in the custom.css file and some of them are at the top of this file.</span></p>
 <p>DKubeX<span class="super">TM</span> is…</p>
 <ul class="simple">
 <li>Introduction to what DKubeX is and how it works</li>
@@ -247,26 +308,12 @@
 </ul>
 </li>
 <li>Approx a single screen/page</li>
-<li>HIgh level block diagram at the top</li>
-<li>LInks to other pages such as the sections on the flows, any tutorials, and the various operations that can be performed</li>
+<li>High level block diagram at the top</li>
+<li>Links to other pages such as the sections on the flows, any tutorials, and the various operations that can be performed</li>
+<li>Mention both the UI &amp; CLI features, with references to the detailed sections</li>
 </ul>
 
 <h2 id="some-examples-of-formatting">Some examples of formatting<a class="headerlink" href="#some-examples-of-formatting" title="Permalink to this headline">¶</a></h2>
-<p><span class="grayback">Internal reference example</span></p>
-<p>This sentence points to <a class="reference internal" href="#dkubex-intro"><span class="std std-ref">DKubeX Overview</span></a></p>
-<p><span class="grayback">This is an example of a table.  There are some classes that are part of the custom css that allow alignment within the table.</span></p>
-<table border="1" class="left-align-right-col">
-<thead valign="bottom">
-<tr class="row-odd"><th class="head">xxx</th>
-<th class="head">yyy</th>
-</tr>
-</thead>
-<tbody valign="top">
-<tr class="row-even"><td><strong>xxx</strong></td>
-<td>xxx</td>
-</tr>
-</tbody>
-</table>
 <p><span class="grayback">These are the admonitions</span></p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
@@ -280,14 +327,7 @@
 <p class="first admonition-title">Warning</p>
 <p class="last">This is something that will lead to some serious problem if overlooked or done incorrectly.  It should jump out at the user.</p>
 </div>
-<p><span class="grayback">Example of using tabs</span></p>
-<div class="sphinx-tabs docutils container">
-<div aria-label="Tabbed content" role="tablist"><button aria-controls="panel-0-0-0" aria-selected="true" class="sphinx-tabs-tab" id="tab-0-0-0" name="0-0" role="tab" tabindex="0">First tab</button><button aria-controls="panel-0-0-1" aria-selected="false" class="sphinx-tabs-tab" id="tab-0-0-1" name="0-1" role="tab" tabindex="-1">2nd tab</button></div><div aria-labelledby="tab-0-0-0" class="sphinx-tabs-panel" id="panel-0-0-0" name="0-0" role="tabpanel" tabindex="0">Text for first tab</div><div aria-labelledby="tab-0-0-1" class="sphinx-tabs-panel" hidden="true" id="panel-0-0-1" name="0-1" role="tabpanel" tabindex="0">Text for 2nd tab</div></div>
-<p><span class="grayback">Here is one way to handle code.</span></p>
-<div class="highlight">
-sudo ./dkubeadm node setup
 
-</div>
 
 
 

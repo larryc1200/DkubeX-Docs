@@ -1,0 +1,6 @@
+
+.. role:: redtext
+.. role:: menuback
+.. role:: grayback
+.. role:: buttonback
+.. role:: super

@@ -54,7 +54,7 @@ autosummary_generate = True
 autoclass_content = "class"
 
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ["._templates"]
+templates_path = ["_templates"]
 
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
@@ -99,7 +99,7 @@ html_theme_options = {
     "globaltoc_depth": 2,
     "master_doc": False,
     "nav_title": "DKubeX User Guide",
-    "table_classes": ["left-align-right-col", "center-align-2nd-col", "double-border", "left-align-left-col", "left-align-right-col", "no-border", "with-border"]
+    "table_classes": ["left-align-right-col", "center-align-2nd-col", "double-border", "left-align-left-col", "left-align-right-col", "left-align-2nd-col", "no-border", "with-border"]
 }
 
 html_logo = "images/logo.png"

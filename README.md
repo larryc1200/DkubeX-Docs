@@ -10,7 +10,8 @@
 The following folder contains the source and HTML files for the installation guide:
 
 - X-build.bat
-  - Batch file to create the user guide
+  - Build the html files from scratch, removing and recreating the output folder
+  - This needs to be rerun when any config or css file changes
 
 - /source
   - Source file folder to create the user guide

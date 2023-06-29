@@ -1,0 +1,10 @@
+{# Import the theme's layout. #}
+{% extends '!layout.html' %}
+
+{%- block extrahead %}
+{# Add custom things to the head HTML tag #}
+  <!-- Add Font Awesome for admonitions -->
+  <link rel="stylesheet" href="_static/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+{# Call the parent block #}
+{{ super() }}
+{%- endblock %}
