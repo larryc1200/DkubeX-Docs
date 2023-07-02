@@ -31,6 +31,17 @@ h1, h2, h3 {
 */
 
 /* ------------------------------
+   Primary Nav formatting
+------------------------------ */
+
+span.caption-text {
+  font-size: 115% !important;
+}
+span.md-nav__link.caption {
+  margin-top: 0.8em;
+}
+
+/* ------------------------------
    Misc formatting
 ------------------------------ */
 

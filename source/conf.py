@@ -75,7 +75,7 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named 'default.css' will overwrite the builtin 'default.css'.
-html_static_path = ["./_static"]
+html_static_path = ["_static"]
 
 # -- HTML theme settings ------------------------------------------------
 
@@ -97,11 +97,10 @@ html_context = {
 html_theme_options = {
     "globaltoc_depth": 2,
     "master_doc": False,
-    "nav_title": "DKubeX User Guide",
     "table_classes": ["left-align-right-col", "center-align-2nd-col", "double-border", "left-align-left-col", "left-align-right-col", "left-align-2nd-col", "no-border", "with-border"]
 }
 
-html_logo = "images/logo.png"
+html_logo = "_static/logo.png"
 
 #if FORCE_CLASSIC:
 #    print("!!!!!!!!! Forcing classic !!!!!!!!!!!")
