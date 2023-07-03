@@ -101,6 +101,7 @@ html_theme_options = {
 }
 
 html_logo = "_static/logo.png"
+html_favicon = '_static/favicon.ico'
 
 #if FORCE_CLASSIC:
 #    print("!!!!!!!!! Forcing classic !!!!!!!!!!!")
