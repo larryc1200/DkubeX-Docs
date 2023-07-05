@@ -6,9 +6,10 @@
            class="md-header-nav__button md-logo">
           {% if theme_logo_icon|e %}
             <i class="md-icon">{{ theme_logo_icon }}</i>
+          {# [lc] Fixed logo issue in theme #}
           {% elif logo_url %}
-              <img src="{{ pathto(logo_url, 1) }}" height="26"
-                   alt="{{ shorttitle|striptags|e }} logo">
+            <img src="{{ pathto(logo_url, 1) }}" height="26"
+                 alt="{{ shorttitle|striptags|e }} logo">
           {% else %}
             &nbsp;
           {% endif %}
